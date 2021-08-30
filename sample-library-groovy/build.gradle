@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'ru.cleverpumpkin.badge'
+
+android {
+    compileSdk = 30
+}
+
+badge {
+    iconNames = ["@mipmap/ic_lib_2"]
+    buildTypes {
+        debug {
+            enabled = true
+            text = "Something"
+        }
+    }
+}

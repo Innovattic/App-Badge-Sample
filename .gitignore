@@ -1,0 +1,18 @@
+*.iml
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+/.idea/
+/.gradle/
+
+# Modules:
+/sample/build/
+
+/sample-library/build/
+
+/sample-library-groovy/build/

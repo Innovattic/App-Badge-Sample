@@ -1,0 +1,2 @@
+rootProject.name = "App-Badge-Sample"
+include ':sample-library', ':sample-library-groovy', ':sample'
