@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    id("ru.cleverpumpkin.badge")
+    id("com.innovattic.badge")
 }
 
 android {

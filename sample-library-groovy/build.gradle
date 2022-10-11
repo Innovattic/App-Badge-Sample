@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'ru.cleverpumpkin.badge'
+apply plugin: 'com.innovattic.badge'
 
 android {
     compileSdk = 30

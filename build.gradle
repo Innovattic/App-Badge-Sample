@@ -3,13 +3,19 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
         // Local maven for testing our plugin when published locally
         mavenLocal()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.1"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30"
-        classpath "ru.cleverpumpkin.badge:plugin:1.0.3"
+
+        // To use released github verison
+        // classpath 'com.github.Innovattic:App-Badge:1.0.5'
+
+        // To use locally published version
+        classpath 'com.innovattic.badge:com.innovattic.badge.gradle.plugin:1.x.x'
     }
 }
 
